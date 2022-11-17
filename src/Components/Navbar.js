@@ -44,6 +44,7 @@ function DrawerAppBar(props) {
             </Link> 
           </ListItem>
         ))}
+        <Button style={{display :"flex" , alignItem:"center" , backgroundColor:"#65b3ef5c" , color:"blue", marginLeft:"8px" , marginTop:"5px"}}>Join us</Button>
       </List>
     </Box>
   );
