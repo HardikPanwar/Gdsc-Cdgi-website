@@ -15,7 +15,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import "./Navbar.css"
-import Navlogo from "G:/Gdsc-app/Gdsc-Cdgi-Page/src/Images/dsc-logo-large.png"
+import Navlogo from "../Images/dsc-logo-large.png"
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact' , 'Teams' , 'Events'];

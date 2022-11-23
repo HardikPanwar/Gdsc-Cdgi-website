@@ -1,0 +1,7 @@
+.Home-screen{
+    background-image: url('../Images/background.svg');
+}
+.row-data{
+    display: flex ;
+    justify-content:space-around;
+}
