@@ -1,7 +1,8 @@
-.Home-screen{
-    background-image: url('../Images/background.svg');
+.home-header{
+    background-image: url('../Images/blue-banner.png');
 }
 .row-data{
     display: flex ;
     justify-content:space-around;
+    margin-top: 50px;
 }

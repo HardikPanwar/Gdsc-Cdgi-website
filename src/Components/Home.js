@@ -6,7 +6,8 @@ import Divider from '@mui/material/Divider';
 import Type from "../Components/typewriter/Type";
 import logo from "../Images/gdsc-logo.svg";
 import BackImg from "../Images/background.svg";
-import com from "../Images/Community.png";
+import com from "../Images/community-removebg.png";
+import Footer from "./Footer";
 import './Home.css';
 
 function Home() {
@@ -42,13 +43,13 @@ function Home() {
       <Container fluid>
       <Row className="row-data">
         <Col sm={6}>
-       {/* <img class="img-responsive" src={com} style={{width:'30vw'}}/> */}
+       <img class="img-responsive" src={com} style={{width:'30vw'}}/>
        
        </Col>
-       <Col lg={6}>
-          <div>
+       <Col lg={6}  >
+          <div  >
           <h1 style={{ textAlign: "center",marginTop:80}}>Who We Are?</h1>
-          <p style={{ textAlign: "center" ,color:'#828282',marginLeft:80,marginRight:80,fontSize:20}}>
+          <p style={{ textAlign: "center" ,color:'#828282',marginLeft:80,marginRight:80,fontSize:18}}>
             Google Developer Student Clubs CDGI - Indore is an university-based
             community groups for students interested in Google developer
             technologies. Students from all undergraduate or graduate programs
@@ -62,6 +63,8 @@ function Home() {
         </Col>
       </Row>
       </Container>
+      <Divider/>
+      <Footer />
     </Container>
     </div>
   );

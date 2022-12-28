@@ -20,7 +20,6 @@ function App() {
   <Route path='about' element={<About/>} />
   <Route path='event' element={<Events/>} />
   <Route path='teams' element={<Teams/>} />
-  
 </Routes>
   </BrowserRouter>   
 
