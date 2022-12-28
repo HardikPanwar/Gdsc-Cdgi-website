@@ -18,7 +18,7 @@ import "./Navbar.css"
 import Navlogo from "../Images/dsc-logo-large.png"
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact' , 'Teams' , 'Events'];
+const navItems = ['Home', 'About', 'Teams' , 'Events', 'Contact' ];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -86,7 +86,7 @@ function DrawerAppBar(props) {
                 </Link>
               </Button>
             ))}
-            <Button sx={{backgroundColor:"#65b3ef5c" , borderRadius:"10px" , marginLeft:"50px" , marginRight:"40px" , color:"blue"}}>
+            <Button href='https://gdsc.community.dev/accounts/login/?next=/chameli-devi-group-of-institutions-indore/' sx={{backgroundColor:"#65b3ef5c" , borderRadius:"10px" , marginLeft:"50px" , marginRight:"40px" , color:"blue"}}>
               Join us
             </Button>
           </Box>
