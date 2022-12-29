@@ -1,0 +1,96 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #ffffff
+} */
+.Back-Image{
+    background-image: url('./Images//dots.png');
+    margin-bottom: 30px;
+}
+.Footer-Background{
+    background-image: url('./Images/footerframe.png');
+}
+.testimotionals {
+    width: 350px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px
+}
+.card:hover .layer{
+    transform:scale(1.1);
+  }
+
+.testimotionals .card {
+    border-radius: 22px;
+    position: relative;
+    overflow: hidden;
+    width: 330px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .5)
+}
+
+.testimotionals .card .layer {
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 0px);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    /* background: linear-gradient(to left, rgb(107, 234, 243), rgb(51, 106, 234)); */
+    transition: 0.5s;
+
+}
+
+.testimotionals .card .content {
+    z-index: 2;
+    position: relative;
+}
+
+.testimotionals .card:hover .layer {
+    top: 0;
+}
+
+.testimotionals .card .content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+
+}
+
+.testimotionals .card .content .image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+
+}
+
+.testimotionals .card .conte nt .details h2 {
+    font-size: 18px;
+    color: white;
+}
+
+.testimotionals .card .content .details h2 span {
+    font-size: 18px;
+    color: purple;
+    transition: 0.5s;
+}
+
+.testimotionals .card:hover .content .details h2 span {
+    color: black;
+    position: relative
+}
+
+body {
+    margin-bottom: 20px
+}
