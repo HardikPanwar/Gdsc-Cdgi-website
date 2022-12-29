@@ -8,7 +8,6 @@ import DSC from "../Images/dsc-logo-large.png";
 import { Row, Col } from "react-bootstrap";
 import { Divider } from "@mui/material";
 import  {FontAwesomeIcon}  from "@fortawesome/react-fontawesome";
-import {fabrands ,fainstagram} from '@fortawesome/free-regular-svg-icons'
 
 function Copyright() {
   return (
@@ -45,49 +44,46 @@ export default function Footer() {
           py: 3,
           px: 2,
           mt: "auto",
-          backgroundColor: (theme) =>
-            theme.palette.mode === "light"
-              ? theme.palette.grey[200]
-              : theme.palette.grey[800],
         }}
+        className="Footer-Background"
       >
         <Container maxWidth="">
-          <Divider />
           <Row style={{ justifyContent: "space-around", display: "flex" }}>
             <div>
-              <img class="img-responsive" src={DSC} style={{ width: "26vw" }} />
+              <img class="img-responsive" src={DSC} style={{ width: "30vw" }} />
               <Typography variant="body2">GDSC-CDGI Indore</Typography>
             </div>
 
             <div>
-              <ul style={{listStyle:"none"}} >
+              
+                <ul style={{listStyle:"none"}} >
                 <li>
                   {" "}
-                  <Link href="/Home" underline="none" color="black">
+                  <Link href="/Home" underline="none" color="#828282">
                     Home
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/About" underline="none" color="black">
+                  <Link href="/About" underline="none" color="#828282">
                     About
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/Teams" underline="none" color="black">
+                  <Link href="/Teams" underline="none" color="#828282">
                     Teams
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/Events" underline="none" color="black">
+                  <Link href="/Events" underline="none" color="#828282">
                     Events
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/Contact" underline="none" color="black">
+                  <Link href="/Contact" underline="none" color="#828282">
                     Contact Us
                   </Link>
                 </li>
@@ -95,8 +91,7 @@ export default function Footer() {
             </div>
 
             <Row>
-            <FontAwesomeIcon icon="fa-brands fa-instagram" />
-            <FontAwesomeIcon icon="fa-brands fa-instagram" />
+          
             </Row>
           </Row>
 
