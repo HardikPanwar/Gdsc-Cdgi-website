@@ -18,7 +18,7 @@ import "./Navbar.css"
 import Navlogo from "../Images/dsc-logo-large.png"
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Teams' , 'Events', 'Contact' ];
+const navItems = [ 'Home' ,'About', 'Teams' , 'Events', 'Contact' ];
 
 function DrawerAppBar(props) {
   const { window } = props;

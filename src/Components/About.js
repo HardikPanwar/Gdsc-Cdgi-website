@@ -20,7 +20,7 @@ function About() {
       <Divider/>
       <Row style={{display:'flex' ,justifyContent:'space-around',marginTop:30}}>
         <Col>
-        <img class="img-responsive" src={diver} style={{width:'35vw'}}/>
+        <img className="img-responsive" src={diver} style={{width:'35vw'}}/>
         </Col>
         <Col>
         <div>
