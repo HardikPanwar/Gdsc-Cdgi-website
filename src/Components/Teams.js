@@ -5,33 +5,52 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Facebook } from "@mui/icons-material";
+
+// Images
 import Lead from "../Images/Teams/Leads/MohitJain.jpg";
 import colead from "../Images/Teams/Leads/SimranBhalode.jpeg";
 import web1 from "../Images/Teams/Web-Team/HardikPanwar.jpg";
+import web2 from "../Images/Teams/Web-Team/Priyanshu.png";
+import web3 from "../Images/Teams/Web-Team/DeepakBadnaware.jpg";
+import cp1 from "../Images/Teams/Competetive-team/ShubhamJain.jpg";
+import cp2 from "../Images/Teams/Competetive-team/Gaurav.jpg";
+import womenintech from "../Images/Teams/WomenInTech/BhoomikaChouhan.jpg";
+import Mentor3 from "../Images/Teams/Mentors/IshikaPradhan.jpeg";
 import Mentor2 from "../Images/Teams/Mentors/MayankYadav.jpg";
+import Ravi from "../Images/Teams/Social-media/RavirajSingh.jpg";
+import Manthan from "../Images/Teams/Management-team/MANTHANCHOUHAN.jpg";
+import Rishika from "../Images/Teams/Management-team/Rishika.jpg";
+import Mansi from "../Images/Teams/Management-team/MansiJain.jpg";
+import Aryan from "../Images/Teams/Pr-outreach/AryanChachra.jpg";
+import Madhur from "../Images/Teams/Pr-outreach/Madhur.jpg";
+import Harshit from "../Images/Teams/Social-media/HarshitRathod.jpg";
+import Kishan from "../Images/Teams/Social-media/KishanRathod.jpg"; 
+import Abhay from "../Images/Teams/Cloud-Team/AbhayDave.jpg";
+
+// EOL
 import Footer from "./Footer";
 import { blueGrey, grey, red } from "@mui/material/colors";
 
 function Teams() {
   return (
     <>
-    <div
-          style={{
-            fontSize: 40,
-            fontWeight: "bold",
-            color: "black",
-            textAlign: "center",
-            fontFamily: "NotoSans-Black",
-          }}
-        >
-          Meet Our <span style={{color:'#2c7eea'}}>Team !</span>
-        </div>
-        <p style={{ textAlign: "center", color: "#828282", fontSize: 20 }}>
-          Passionate Students Driving the success of the Program
-        </p>
-      <Container className="Back-Image" >
-        <Divider />    
-        <Row  >
+      <div
+        style={{
+          fontSize: 40,
+          fontWeight: "bold",
+          color: "black",
+          textAlign: "center",
+          fontFamily: "NotoSans-Black",
+        }}
+      >
+        Meet Our <span style={{ color: "#2c7eea" }}>Team !</span>
+      </div>
+      <p style={{ textAlign: "center", color: "#828282", fontSize: 20 }}>
+        Passionate Students Driving the success of the Program
+      </p>
+      <Container className="Back-Image">
+        <Divider />
+        <Row>
           <div
             style={{
               marginTop: 20,
@@ -205,12 +224,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={Mentor3} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={Mentor3} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -286,17 +305,49 @@ function Teams() {
               </div>
             </div>
 
+            <div class="testimotionals">
+              <div class="card">
+                <div class="layer">
+                  {" "}
+                  <img width="100%"  alt="" />
+                </div>
+                <div class="content">
+                  <p style={{ marginBottom: 110 }}></p>
+                  <div class="image">
+                    <img width="100%"  alt="" />
+                  </div>
+                  <div class="details">
+                    <h2>
+                      {" "}
+                      Pravesh Rathore <br /> <span>Team member</span>
+                    </h2>
+                  </div>
+                  <Row>
+                    <a href="#" style={{ marginRight: 15 }}>
+                      <InstagramIcon sx={{ color: red[300] }} />
+                    </a>
+                    <a href="#" style={{ marginRight: 15 }}>
+                      <GitHubIcon color="action" />
+                    </a>
+                    <a href="#">
+                      <LinkedInIcon sx={{ color: blueGrey[500] }} />
+                    </a>
+                  </Row>
+                </div>
+              </div>
+            </div>
+
             {/* Priyanshu Joshi */}
             <div class="testimotionals">
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={web2} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={web2} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -324,12 +375,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={web3} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={web3} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -377,12 +428,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="380px" alt="" />
+                  <img width="100%" src={cp1} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={cp1} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -410,12 +461,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={cp2} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={cp2} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -464,12 +515,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="380px" alt="" />
+                  <img width="100%" src={Ravi} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={Ravi} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -497,12 +548,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={Kishan} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={Kishan} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -531,12 +582,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={Harshit} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={Harshit} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -586,12 +637,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="380px"  alt="" />
+                  <img width="240px" src={Manthan} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px"  alt="" />
+                    <img width="100%" src={Manthan} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -619,17 +670,18 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={Mansi} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={Mansi} alt="" />
                   </div>
                   <div class="details">
                     <h2>
                       {" "}
-                      Mansi Jain<br /> <span>Team Member</span>
+                      Mansi Jain
+                      <br /> <span>Team Member</span>
                     </h2>
                   </div>
                   <Row>
@@ -652,17 +704,18 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={Rishika} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={Rishika} alt="" />
                   </div>
                   <div class="details">
                     <h2>
                       {" "}
-                      Rishika Mistri<br /> <span>Team Member</span>
+                      Rishika Mistri
+                      <br /> <span>Team Member</span>
                     </h2>
                   </div>
                   <Row>
@@ -681,7 +734,6 @@ function Teams() {
             </div>
           </Row>
         </Container>
-
 
         {/* Public Relation and Outreach Team */}
         <Container style={{ marginTop: 60 }}>
@@ -706,12 +758,12 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="380px"  alt="" />
+                  <img width="100%" src={Madhur} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px"  alt="" />
+                    <img width="100%" src={Madhur} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -734,22 +786,23 @@ function Teams() {
               </div>
             </div>
 
-            {/* Kishan Rathod */}
+            {/* Aryan Chachra */}
             <div class="testimotionals">
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  <img width="100%" src={Aryan} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px" alt="" />
+                    <img width="100%" src={Aryan} alt="" />
                   </div>
                   <div class="details">
                     <h2>
                       {" "}
-                      Aryan Chachra<br /> <span>Team Member</span>
+                      Aryan Chachra
+                      <br /> <span>Team Member</span>
                     </h2>
                   </div>
                   <Row>
@@ -792,17 +845,17 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="380px"  alt="" />
+                  <img width="100%" src={Abhay} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px"  alt="" />
+                    <img width="100%" src={Abhay} alt="" />
                   </div>
                   <div class="details">
                     <h2>
                       {" "}
-                      Abhav Dave <br /> <span>Team Member</span>
+                      Abhay Dave <br /> <span>Team Member</span>
                     </h2>
                   </div>
                   <Row>
@@ -823,7 +876,7 @@ function Teams() {
         </Container>
 
         {/* Women IN Teach Team */}
-        <Container style={{ marginTop: 60  }}>
+        <Container style={{ marginTop: 60 }}>
           <Divider />
           <Row>
             <div
@@ -839,18 +892,18 @@ function Teams() {
               Women In Teach Team
             </div>
           </Row>
-          <Row style={{ display: "flex", justifyContent: "space-evenly"  }}>
+          <Row style={{ display: "flex", justifyContent: "space-evenly" }}>
             {/* Bhoomika Chouhan */}
             <div class="testimotionals">
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="380px"  alt="" />
+                  <img width="100%" src={womenintech} alt="" />
                 </div>
                 <div class="content">
                   <p style={{ marginBottom: 110 }}></p>
                   <div class="image">
-                    <img width="100px"  alt="" />
+                    <img width="100%" src={womenintech} alt="" />
                   </div>
                   <div class="details">
                     <h2>
@@ -874,7 +927,6 @@ function Teams() {
             </div>
           </Row>
         </Container>
-        
       </Container>
       <Divider />
       <Footer />

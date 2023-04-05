@@ -9,20 +9,18 @@ function About() {
   return (
     <>
     <Container fluid >
-      <Row  style={{display:'flex' ,justifyContent:'space-around'}}>
-        <Col>
-        <div style={{fontSize:40 ,fontWeight:'bold' ,color:'#2c7eea' }}>About</div>
+      <Row >
+        <Col >
+        <div style={{fontSize:"3.5rem" ,fontWeight:'bold' ,color:'#2c7eea' ,textAlign:"center",margin:0}}>About</div>
         </Col>
-        <Col>
-        <Button href='mailto:gdsccdgi@cdgi.edu.in' variant='contained' style={{margin:0}}><ContactsIcon/>Contact Us</Button>
-        </Col>
+       
       </Row>
       <Divider/>
-      <Row style={{display:'flex' ,justifyContent:'space-around',marginTop:30}}>
-        <Col>
-        <img class="img-responsive" src={diver} style={{width:'35vw'}}/>
+      <Row >
+        <Col sm={4}>
+        <img class="img-responsive" src={diver} style={{width:'100%'}}/>
         </Col>
-        <Col>
+        <Col lg={8}>
         <div>
           <h1 style={{ textAlign: "center",marginTop:80}}>About Us</h1>
           <p style={{ textAlign: "center" ,color:'#828282',marginLeft:80,marginRight:80,fontSize:18}}>
@@ -50,20 +48,26 @@ function About() {
         <Col>
         <div>
           <h1 style={{ textAlign: "center",marginTop:80}}>Community Guidelines</h1>
+          <Row style={{marginBottom:10,marginTop:20}}>
           <h3 style={{textAlign:"center"}}>1. Be respectful </h3>
           <p style={{ textAlign: "center" ,marginLeft:80,marginRight:80,fontSize:18,color:'#828282'}}>
           We're all part of the same community, so be friendly, welcoming, and generally a nice person. Be someone that other people want to be around.
           </p>
-
+          </Row>
+         
+          <Row style={{marginBottom:10}}>
           <h3 style={{textAlign:"center"}}>2. Be respectful and constructive</h3>
           <p style={{ textAlign: "center" ,marginLeft:80,marginRight:80,fontSize:18,color:'#828282'}}>
           Remember to be respectful and constructive with your communication to fellow members. Don't get into flamewars, make personal attacks, vent, or rant unconstructively. Everyone should take responsibility for the community and take the initiative to diffuse tension and stop a negative thread as early as possible.
           </p>
+          </Row>
 
+          <Row style={{marginBottom:10}}>
           <h3 style={{textAlign:"center"}}>3. Be collabrative </h3>
           <p style={{ textAlign: "center" ,marginLeft:80,marginRight:80,fontSize:18,color:'#828282'}}>
           Work together! We can learn a lot from each other. Share knowledge, and help each other out.
           </p>
+          </Row >
           </div>
         </Col>
         

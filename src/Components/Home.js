@@ -18,7 +18,7 @@ function Home() {
       >
      
       <Row >
-        <Col  className="home-header">
+        <Col className="home-header" >
           <h3
             style={{
               textAlign: "center",
@@ -29,24 +29,23 @@ function Home() {
             <img src={logo} />
             <Type />
           </h3>
-          <p style={{ textAlign: "center", fontSize: 30 ,backgroundColor: "white"}}>
+        </Col>
+        <Row>
+          <p style={{ textAlign: "center", fontSize: 30 ,backgroundColor: "white",paddingBottom:10,marginTop:20}}>
             Google Developer Student Club - Chameli Devi Group of Institutions ,
             Indore
             <br/>
-            <br/>
             <Button href='https://gdsc.community.dev/chameli-devi-group-of-institutions-indore/' variant="outlined"><img src={logo} style={{width:28,marginRight:10}}/>Join Chapter</Button>            
-          </p>
-          
-        </Col>
+          </p></Row>
       </Row>
       <Divider/>
       <Container fluid>
-      <Row className="row-data">
-        <Col sm={6}>
-       <img class="img-responsive" src={com} style={{width:'30vw'}}/>
+      <Row >
+        <Col sm={4}>
+       <img class="img-responsive" src={com} style={{width:'100%'}}/>
        
        </Col>
-       <Col lg={6}  >
+       <Col lg={8}  >
           <div  >
           <h1 style={{ textAlign: "center",marginTop:80}}>Who We Are?</h1>
           <p style={{ textAlign: "center" ,color:'#828282',marginLeft:80,marginRight:80,fontSize:18}}>
