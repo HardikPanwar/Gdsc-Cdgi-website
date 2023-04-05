@@ -16,6 +16,7 @@ function About() {
        
       </Row>
       <Divider/>
+
       <Row >
         <Col sm={4}>
         <img class="img-responsive" src={diver} style={{width:'100%'}}/>

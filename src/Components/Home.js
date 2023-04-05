@@ -40,9 +40,11 @@ function Home() {
       </Row>
       <Divider/>
       <Container fluid>
+
       <Row >
         <Col sm={4}>
        <img class="img-responsive" src={com} style={{width:'100%'}}/>
+
        
        </Col>
        <Col lg={8}  >
