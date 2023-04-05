@@ -43,7 +43,7 @@ function Home() {
       <Container fluid>
       <Row className="row-data">
         <Col sm={6}>
-       <img class="img-responsive" src={com} style={{width:'30vw'}}/>
+       <img className="img-responsive" src={com} style={{width:'30vw'}}/>
        
        </Col>
        <Col lg={6}  >

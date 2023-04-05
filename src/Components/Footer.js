@@ -50,7 +50,7 @@ export default function Footer() {
         <Container maxWidth="">
           <Row style={{ justifyContent: "space-around", display: "flex" }}>
             <div>
-              <img class="img-responsive" src={DSC} style={{ width: "30vw" }} />
+              <img className="img-responsive" src={DSC} style={{ width: "30vw" }} />
               <Typography variant="body2">GDSC-CDGI Indore</Typography>
             </div>
 
