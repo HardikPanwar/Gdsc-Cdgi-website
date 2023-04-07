@@ -71,12 +71,12 @@ function Teams() {
           <div class="testimotionals ">
             <div class="card">
               <div class="layer">
-                <img width="100%" src={Lead} alt="" />
+                {/* <img width="100%" src={Lead} alt="" /> */}
               </div>
               <div class="content">
-                <p style={{ marginBottom: 110 }}></p>
+                {/* <p style={{ marginBottom: 110 }}></p> */}
                 <div class="image">
-                  <img width="100px" src={Lead} alt="" />
+                  <img width="100px"  src={Lead} alt="" />
                 </div>
                 <div class="details">
                   <h2>
@@ -84,7 +84,6 @@ function Teams() {
                     Mohit Jain <br /> <span>GDSC Lead</span>
                   </h2>
                 </div>
-                <Row>
                   <a href="#" style={{ marginRight: 15 }}>
                     <InstagramIcon sx={{ color: red[300] }} />
                   </a>
@@ -94,7 +93,6 @@ function Teams() {
                   <a href="#">
                     <LinkedInIcon sx={{ color: blueGrey[500] }} />
                   </a>
-                </Row>
               </div>
             </div>
           </div>
@@ -103,10 +101,10 @@ function Teams() {
           <div class="testimotionals">
             <div class="card">
               <div class="layer">
-                <img width="250px" src={colead} alt="" />
+                {/* <img width="250px" src={colead} alt="" /> */}
               </div>
               <div class="content">
-                <p style={{ marginBottom: 110 }}></p>
+                {/* <p style={{ marginBottom: 110 }}></p> */}
 
                 <div class="image">
                   <img width="100%" src={colead} alt="" />
@@ -118,7 +116,6 @@ function Teams() {
                     Simran Bhalode <br /> <span>GDSC Co-Lead</span>
                   </h2>
                 </div>
-                <Row>
                   <a href="#" style={{ marginRight: 15 }}>
                     <InstagramIcon sx={{ color: red[300] }} />
                   </a>
@@ -128,7 +125,6 @@ function Teams() {
                   <a href="#">
                     <LinkedInIcon sx={{ color: blueGrey[500] }} />
                   </a>
-                </Row>
               </div>
             </div>
           </div>
@@ -158,10 +154,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="350px" alt="" />
+                  {/* <img width="350px" alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100px" alt="" />
                   </div>
@@ -171,7 +167,6 @@ function Teams() {
                       Jay Kumar Patidar <br /> <span>Mentor</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -181,7 +176,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -191,10 +185,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="280px" src={Mentor2} alt="" />
+                  {/* <img width="280px" src={Mentor2} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Mentor2} alt="" />
                   </div>
@@ -204,7 +198,6 @@ function Teams() {
                       Mayank Yadav <br /> <span>Mentor</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -214,7 +207,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -224,10 +216,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Mentor3} alt="" />
+                  {/* <img width="100%" src={Mentor3} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Mentor3} alt="" />
                   </div>
@@ -237,7 +229,6 @@ function Teams() {
                       Ishika Pradhan <br /> <span>Mentor</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -247,7 +238,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -277,10 +267,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={web1} alt="" />
+                  {/* <img width="100%" src={web1} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={web1} alt="" />
                   </div>
@@ -290,7 +280,6 @@ function Teams() {
                       Hardik Panwar <br /> <span>Foster (Head)</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -300,7 +289,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -309,10 +297,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%"  alt="" />
+                  {/* <img width="100%"  alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%"  alt="" />
                   </div>
@@ -322,7 +310,6 @@ function Teams() {
                       Pravesh Rathore <br /> <span>Team member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -332,7 +319,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -342,10 +328,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={web2} alt="" />
+                  {/* <img width="100%" src={web2} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={web2} alt="" />
                   </div>
@@ -355,7 +341,6 @@ function Teams() {
                       Priyanshu Joshi <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -365,7 +350,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -375,10 +359,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={web3} alt="" />
+                  {/* <img width="100%" src={web3} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={web3} alt="" />
                   </div>
@@ -388,7 +372,6 @@ function Teams() {
                       Deepak Badnawar <br /> <span>Team member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -398,7 +381,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -428,10 +410,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={cp1} alt="" />
+                  {/* <img width="100%" src={cp1} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={cp1} alt="" />
                   </div>
@@ -441,7 +423,6 @@ function Teams() {
                       Shubham Jain <br /> <span>Foster (Head)</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -451,7 +432,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -461,10 +441,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={cp2} alt="" />
+                  {/* <img width="100%" src={cp2} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={cp2} alt="" />
                   </div>
@@ -475,7 +455,6 @@ function Teams() {
                       <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -485,7 +464,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -515,10 +493,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Ravi} alt="" />
+                  {/* <img width="100%" src={Ravi} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Ravi} alt="" />
                   </div>
@@ -528,7 +506,6 @@ function Teams() {
                       Raviraj Singh Sisodiya <br /> <span>Foster (Head)</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -538,7 +515,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -548,10 +524,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Kishan} alt="" />
+                  {/* <img width="100%" src={Kishan} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Kishan} alt="" />
                   </div>
@@ -562,7 +538,6 @@ function Teams() {
                       <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -572,7 +547,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -582,10 +556,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Harshit} alt="" />
+                  {/* <img width="100%" src={Harshit} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Harshit} alt="" />
                   </div>
@@ -596,7 +570,6 @@ function Teams() {
                       <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -606,7 +579,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -637,10 +609,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="240px" src={Manthan} alt="" />
+                  {/* <img width="240px" src={Manthan} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Manthan} alt="" />
                   </div>
@@ -650,7 +622,6 @@ function Teams() {
                       Manthan Chouhan <br /> <span>Foster (Head)</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -660,7 +631,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -670,10 +640,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Mansi} alt="" />
+                  {/* <img width="100%" src={Mansi} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Mansi} alt="" />
                   </div>
@@ -684,7 +654,6 @@ function Teams() {
                       <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -694,7 +663,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -704,10 +672,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Rishika} alt="" />
+                  {/* <img width="100%" src={Rishika} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Rishika} alt="" />
                   </div>
@@ -718,7 +686,6 @@ function Teams() {
                       <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -728,7 +695,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -758,10 +724,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Madhur} alt="" />
+                  {/* <img width="100%" src={Madhur} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Madhur} alt="" />
                   </div>
@@ -771,7 +737,6 @@ function Teams() {
                       Madhur Chouhan <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -781,7 +746,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -791,10 +755,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Aryan} alt="" />
+                  {/* <img width="100%" src={Aryan} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Aryan} alt="" />
                   </div>
@@ -805,7 +769,6 @@ function Teams() {
                       <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -815,7 +778,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -845,10 +807,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={Abhay} alt="" />
+                  {/* <img width="100%" src={Abhay} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={Abhay} alt="" />
                   </div>
@@ -858,7 +820,6 @@ function Teams() {
                       Abhay Dave <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -868,7 +829,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>
@@ -898,10 +858,10 @@ function Teams() {
               <div class="card">
                 <div class="layer">
                   {" "}
-                  <img width="100%" src={womenintech} alt="" />
+                  {/* <img width="100%" src={womenintech} alt="" /> */}
                 </div>
                 <div class="content">
-                  <p style={{ marginBottom: 110 }}></p>
+                  {/* <p style={{ marginBottom: 110 }}></p> */}
                   <div class="image">
                     <img width="100%" src={womenintech} alt="" />
                   </div>
@@ -911,7 +871,6 @@ function Teams() {
                       Bhoomika Chouhan <br /> <span>Team Member</span>
                     </h2>
                   </div>
-                  <Row>
                     <a href="#" style={{ marginRight: 15 }}>
                       <InstagramIcon sx={{ color: red[300] }} />
                     </a>
@@ -921,7 +880,6 @@ function Teams() {
                     <a href="#">
                       <LinkedInIcon sx={{ color: blueGrey[500] }} />
                     </a>
-                  </Row>
                 </div>
               </div>
             </div>

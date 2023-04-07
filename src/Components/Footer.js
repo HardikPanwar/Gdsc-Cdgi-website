@@ -8,7 +8,10 @@ import DSC from "../Images/dsc-logo-large.png";
 import { Row, Col } from "react-bootstrap";
 import { Divider } from "@mui/material";
 import  {FontAwesomeIcon}  from "@fortawesome/react-fontawesome";
-
+import InstagramOutlined from "@mui/icons-material/Instagram"
+import TwitterOutlined from "@mui/icons-material/Twitter"
+import FacebookOutlined from "@mui/icons-material/FacebookOutlined"
+import "./Footer.css"
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" textAlign={"center"} style={{ color:'navyblue'}}>
@@ -20,86 +23,57 @@ function Copyright() {
 
 export default function Footer() {
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        minHeight: "30vh",
-      }}
-    >
-      <CssBaseline />
-      {/* <Container component="main" sx={{ mt: 8, mb: 2 }} maxWidth="sm">
-        <Typography variant="h2" component="h1" gutterBottom>
-          Sticky footer
-        </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
-          {'Pin a footer to the bottom of the viewport.'}
-          {'The footer will move as the main element of the page grows.'}
-        </Typography>
-        <Typography variant="body1">Sticky footer placeholder.</Typography>
-      </Container> */}
-      <Box
-        component="footer"
-        sx={{
-          py: 3,
-          px: 2,
-          mt: "auto",
-        }}
-        className="Footer-Background"
-      >
-        <Container maxWidth="">
-          <Row style={{ justifyContent: "space-around", display: "flex" }}>
-            <div>
-              <img className="img-responsive" src={DSC} style={{ width: "30vw" }} />
-              <Typography variant="body2">GDSC-CDGI Indore</Typography>
+    <div className="footer">
+    <div>
+    <div>
+      <img className="img-responsive" src={DSC} style={{ width: "30vw" }} />
+        </div>
+      <div className="footer-content">
+       
+        
+        <Row>
+        <div className="sub">
+          <div>
+            <b>Clubs</b>
+            <p>About</p>
+            <p>Blog</p>
+          </div>
+          <div>
+            <b>For You</b>
+            <p>Code of conduct</p>
+            <p>Community</p>
+          </div>
+          <div>
+            <b>Links</b>
+            <p>Home</p>
+            <p>Teams</p>
+            <p>Events</p>
+            <p>Contact</p>
+          </div>
+          <div>
+            <b>For You</b>
+            <p>Privacy</p>
+            <p>Security</p>
+            <p>Terms</p>
+          </div>
+          <div>
+            <b>Social links</b>
+            <div style={{marginTop:5}} >
+              <InstagramOutlined/>
             </div>
-
             <div>
-              
-                <ul style={{listStyle:"none"}} >
-                <li>
-                  {" "}
-                  <Link href="/Home" underline="none" color="#828282">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  {" "}
-                  <Link href="/About" underline="none" color="#828282">
-                    About
-                  </Link>
-                </li>
-                <li>
-                  {" "}
-                  <Link href="/Teams" underline="none" color="#828282">
-                    Teams
-                  </Link>
-                </li>
-                <li>
-                  {" "}
-                  <Link href="/Events" underline="none" color="#828282">
-                    Events
-                  </Link>
-                </li>
-                <li>
-                  {" "}
-                  <Link href="/Contact" underline="none" color="#828282">
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
+            <TwitterOutlined/>
             </div>
-
-            <Row>
-          
-            </Row>
-          </Row>
-
-          <Divider />
-          <Copyright />
-        </Container>
-      </Box>
-    </Box>
+            <div>
+            <FacebookOutlined/>
+            </div>
+          </div>
+        </div>
+        </Row>
+        <p style={{justifyContent:'center',textAlign:'center',marginTop:50}} ><Copyright /></p>
+      </div>
+    </div>
+  </div>
   );
 }
 

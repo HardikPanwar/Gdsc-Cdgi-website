@@ -3,9 +3,15 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: sans-serif;
-    background-color: #ffffff
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+   
 }
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 .Back-Image{
     background-image: url('./Images//dots.png');
     margin-bottom: 30px;
@@ -43,7 +49,7 @@ body {
     height: 100%;
     width: 100%;
     left: 0;
-    /* background: linear-gradient(to left, rgb(107, 234, 243), rgb(51, 106, 234)); */
+    background: linear-gradient(to left, rgb(107, 234, 200), rgb(51, 234, 225) , rgb(51, 234, 250));
     transition: 0.5s;
 
 }
@@ -65,14 +71,17 @@ body {
 }
 
 .testimotionals .card .content .image {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    object-fit: cover !important;
+    border-radius: 100%;
     overflow: hidden;
     border: 4px solid white;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .testimotionals .card .conte nt .details h2 {
