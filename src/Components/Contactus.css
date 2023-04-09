@@ -1,0 +1,70 @@
+.contaniner{
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 70%;
+    background-color: #ffffff;
+    
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.Inputfields{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    
+    margin-left: 40px;
+    margin-top: 40px;
+    column-gap: 30px;
+   
+}
+
+.vl {
+    border-left: 0.5px ridge #45454545;
+    height: 550px;
+    margin-left: 30px;
+  }
+
+  .Conbtn{
+    border: none;
+    padding: 10px;
+    margin-top: 40px;
+    width: 25%;
+    background-color: rgb(55, 122, 248);
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 10px;
+    text-transform:uppercase;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  }
+
+  @media screen and (max-width: 700px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        background-color: #ffffff;
+        
+        border-radius: 30px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    }
+}
+
