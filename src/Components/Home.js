@@ -24,6 +24,7 @@ function Home() {
               textAlign: "center",
               fontSize: 60,
               margin:0,
+              color:'white'
             }}
           >
             <img src={logo} />
@@ -31,11 +32,13 @@ function Home() {
           </h3>
         </Col>
         <Row>
-          <p style={{ textAlign: "center", fontSize: 30 ,backgroundColor: "white",paddingBottom:10,marginTop:20}}>
-            Google Developer Student Club - Chameli Devi Group of Institutions ,
-            Indore
+          <p style={{ textAlign: "center", fontSize: 30 ,backgroundColor: "white",paddingBottom:10,marginTop:20, fontVariant:'small-caps', fontWeight:'600', color:'#484242'}}>
+            Google Developer Student Club
             <br/>
-            <Button href='https://gdsc.community.dev/chameli-devi-group-of-institutions-indore/' variant="outlined"><img src={logo} style={{width:28,marginRight:10}}/>Join Chapter</Button>            
+            Chameli Devi Group of Institutions,
+            Indore
+            <br />
+            <Button href='https://gdsc.community.dev/chameli-devi-group-of-institutions-indore/' variant="outlined" style={{marginTop:'50px'}}><img src={logo} style={{width:28,marginRight:10}}/>Join Chapter</Button>            
           </p></Row>
       </Row>
       <Divider/>
